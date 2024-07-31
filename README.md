@@ -107,7 +107,7 @@ The app is running at: **http://localhost:8501**
 ## 📁 Project Structure
 
 ```
-
+smart_traffic/
 ├── app.py                          # Main application entry point
 ├── requirements.txt                # Python dependencies
 ├── src/
