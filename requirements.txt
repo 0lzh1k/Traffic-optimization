@@ -1,0 +1,15 @@
+matplotlib==3.10.6
+networkx==3.5
+numpy==2.3.2
+pandas==2.3.2
+pydeck==0.9.1
+scikit-learn==1.7.1
+simpy==4.1.1
+streamlit==1.49.1
+stable-baselines3==2.7.0
+gymnasium==1.2.0
+folium==0.20.0
+plotly==6.3.0
+seaborn==0.13.2
+streamlit-folium==0.25.1
+simpy==4.1.1
