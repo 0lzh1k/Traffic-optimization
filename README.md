@@ -1,12 +1,12 @@
 # Smart Traffic Flow Optimization System
 
-## 🚦 Project Overview
+## Project Overview
 
 A comprehensive traffic optimization system that combines discrete-event simulation, machine learning, and reinforcement learning to optimize urban traffic signal control. Built with Python and Streamlit for interactive analysis and policy comparison.
 
-## 📋 Features Implemented
+## Features Implemented
 
-### ✅ **Core Features (All MVP Requirements Met)**
+### **Core Features (All MVP Requirements Met)**
 
 1. **Multi-Intersection Traffic Simulation**
    - SimPy-based discrete event simulation
@@ -28,13 +28,13 @@ A comprehensive traffic optimization system that combines discrete-event simulat
    - Real-time prediction with confidence intervals
 
 4. **Interactive Streamlit Dashboard**
-   - 🏠 **Overview**: Project introduction and system architecture
-   - 🚦 **Traffic Simulation**: Configure and run simulation scenarios
-   - 🤖 **RL Training**: Train and evaluate RL agents
-   - 📈 **Prediction Models**: Train forecasting models and make predictions
-   - 🗺️ **Network Visualization**: Interactive maps with Folium
-   - 📊 **Policy Comparison**: Compare Fixed-time vs Actuated vs RL policies
-   - ⚙️ **Real-time Control**: Live monitoring and manual override controls
+   - **Overview**: Project introduction and system architecture
+   - **Traffic Simulation**: Configure and run simulation scenarios
+   - **RL Training**: Train and evaluate RL agents
+   - **Prediction Models**: Train forecasting models and make predictions
+   - **Network Visualization**: Interactive maps with Folium
+   - **Policy Comparison**: Compare Fixed-time vs Actuated vs RL policies
+   - **Real-time Control**: Live monitoring and manual override controls
 
 5. **Policy Comparison System**
    - Fixed-time control (baseline)
@@ -48,7 +48,7 @@ A comprehensive traffic optimization system that combines discrete-event simulat
    - Incident simulation (reduced capacity)
    - Variable demand patterns
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -66,7 +66,7 @@ A comprehensive traffic optimization system that combines discrete-event simulat
                     └─────────────────┘
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. **Access the Application**
 The app is running at: **http://localhost:8501**
@@ -83,28 +83,28 @@ The app is running at: **http://localhost:8501**
    - Choose "Fixed Time" control policy
    - Click "🚀 Run Simulation"
 
-3. **Train an RL Agent** 🤖
+3. **Train an RL Agent** 
    - Go to "RL Training" tab
    - Select PPO algorithm
    - Set 50,000 training steps (for quick demo)
    - Click "🎯 Start Training"
 
-4. **Compare Policies** 📊
+4. **Compare Policies** 
    - Go to "Policy Comparison" tab
    - Select "Fixed Time" and "RL-based"
    - Click "🏁 Run Comparison"
    - View performance improvements
 
-5. **Explore Predictions** 📈
+5. **Explore Predictions** 
    - Go to "Prediction Models" tab
    - Train a Random Forest model
    - Generate traffic flow forecasts
 
-6. **View Network Map** 🗺️
+6. **View Network Map** 
    - Go to "Network Visualization" tab
    - See interactive traffic map with real-time data
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart_traffic/
@@ -124,7 +124,7 @@ smart_traffic/
 └── models/                         # Trained model storage (auto-created)
 ```
 
-## 🎯 Key Performance Metrics
+## Key Performance Metrics
 
 The system tracks and optimizes:
 
@@ -133,7 +133,7 @@ The system tracks and optimizes:
 - **Queue Lengths**: Number of vehicles waiting at each approach
 - **Signal Efficiency**: Optimal phase timing and coordination
 
-## 🧪 Testing Different Scenarios
+## Testing Different Scenarios
 
 ### **Peak Hour Scenario**
 - High arrival rates (600+ vehicles/hour)
@@ -150,7 +150,7 @@ The system tracks and optimizes:
 - Real-world uncertainty
 - Robust policy evaluation
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 1. **Multi-Agent RL**: Coordinate multiple intersections
 2. **Real Sensor Integration**: Connect to actual traffic sensors
